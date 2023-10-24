@@ -23,28 +23,28 @@ Dataset can be found in `dataset\transfers.csv` file.
 - `PO1` LIGA PORTUGAL BWIN
 - `NL1` DUTCH EREDIVISIE
  
-`season` - season  
-`window` - transfer window (`s` summer or `w` winter)  
-`team_id` - team's ID as used by Transfermarkt  
-`team_name` - team's name  
-`team_country` - team's country  
-`dir` - transfer direction (`in` or `left`)  
-`player_id` - player's ID as used by Transfermarkt  
-`player_name` - player's name  
-`player_age` - player's age when transfer occurred  
-`player_nation` - player's nationality  
-`player_nation2` - player's 2nd nationality  
-`player_pos` - player's field position  
-`counter_team_id` - counter team's ID as used by Transfermarkt  
-`counter_team_name` - counter team's name  
-`counter_team_country` - counter team's country  
-`transfer_fee_amnt` - transfer fee amount (EUR)  
-`market_val_amnt` - player's market value (EUR) when transfer occurred estimated by Transfermarkt  
-`is_free` - free transfer (`True` or `False`)  
-`is_loan` - loan transfer (`True` or `False`)  
-`is_loan_end` - end of loan transfer (`True` or `False`)  
-`is_retired` - player retired (`True` or `False`)  
-`transfer_id` - transfer's ID as used by Transfermarkt  
+`season` -  La stagione a cui si riferisce il trasferimento.
+`window` - La finestra di trasferimento, che può essere "s" (estate) o "w" (inverno).
+`team_id` - L'ID della squadra utilizzato da Transfermarkt.
+`team_name` - Il nome della squadra.
+`team_country` - Il paese della squadra.
+`dir` - La direzione del trasferimento, che può essere "in" (acquisto) o "left" (vendita).
+`player_id` - L'ID del calciatore utilizzato da Transfermarkt.
+`player_name` - Il nome del calciatore.
+`player_age` - L'età del calciatore al momento del trasferimento.
+`player_nation` - La nazionalità del calciatore.
+`player_nation2` - La seconda nazionalità del calciatore, se presente.
+`player_pos` - La posizione in campo del calciatore.
+`counter_team_id` - L'ID della squadra controparte coinvolta nel trasferimento.
+`counter_team_name` - Il nome della squadra controparte.
+`counter_team_country` - Il paese della squadra controparte.
+`transfer_fee_amnt` - L'importo del trasferimento in euro.
+`market_val_amnt` - Il valore di mercato del calciatore in euro al momento del trasferimento, stimato da Transfermarkt.
+`is_free` - Se si tratta di un trasferimento gratuito ("True" o "False").
+`is_loan` - Se si tratta di un prestito ("True" o "False").
+`is_loan_end` - Se si tratta della fine di un prestito ("True" o "False").
+`is_retired` - Se il calciatore è ritirato ("True" o "False").
+`transfer_id` - L'ID del trasferimento utilizzato da Transfermarkt.
 
 ## Data source and code
 - Data was scraped from [Transfermarkt.com](https://www.transfermarkt.com). Raw data files can be found in `data` folder.
